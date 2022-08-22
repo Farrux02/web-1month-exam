@@ -1,0 +1,63 @@
+#div1 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+}
+
+#div1:hover {
+    border-radius: 50%;
+    transition: all 0.5s;
+    background-color: purple;
+}
+
+#div2 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    transition: all 0.5s;
+}
+
+#div2:active {
+    animation-name: circleZoom;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circleZoom {
+    0% {
+        width: 250px;
+        height: 250px;
+    }
+    50% {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    100% {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+#div3 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    animation-name: infiniteMove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes infiniteMove {
+    0% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
