@@ -1,1 +1,1 @@
-[web-1month-exam](farrux02.github.io/web-1month-exam/)
+[web-1month-exam](https://farrux02.github.io/web-1month-exam/)
